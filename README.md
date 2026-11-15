@@ -8,6 +8,10 @@ OBS Studio で、日本語の配信の音声からリアルタイムに 3 つの
 
 音声の認識、英訳、概要の作成には OpenAI の API を使います。
 
+認識する音声は日本語だけです。文字起こしは日本語、翻訳先は英語で固定しており、ほかの言語の配信には使えません。
+
+Only Japanese speech is supported. The plugin transcribes Japanese and translates it into English; the languages cannot be changed.
+
 [配信プラグイン倉庫くん](https://soko-kun.allegromoltov.jp/plugins/allegromoltov/obs-realtime-translate-summary) にも掲載しています。 / Also listed on [Plugin Soko-kun](https://soko-kun.allegromoltov.jp/plugins/allegromoltov/obs-realtime-translate-summary?lang=en).
 
 > このプラグインは無料です。ただし、OpenAI API の利用料金は、利用者ご自身の OpenAI アカウントに別途請求されます。利用には、ご自身で発行した OpenAI の API キーが必要です。料金の目安は「[費用](#費用)」を参照してください。
@@ -26,7 +30,7 @@ OBS Studio で、日本語の配信の音声からリアルタイムに 3 つの
 - 接続が切れたときは、自動で最大 5 回まで再接続します
 - 指定した時間で自動停止できます。停止し忘れによる課金を防ぐための機能で、既定はオフです
 - 開始/停止の切り替え、開始、停止のホットキーを OBS の設定で割り当てられます。OBS のホットキーはほかのアプリで文字を入力しているときにも反応するため、スペースキーなど文字の入力で押すキーは割り当てないでください
-- 日本語と English の表示に対応しています
+- プラグインの画面は、日本語と English の表示に対応しています。認識する音声の言語とは別です
 
 ## 必要なもの
 
