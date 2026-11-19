@@ -140,6 +140,10 @@ Anthropic Claude Code was used for almost the entire development process, includ
 
 ## 更新情報
 
+### v1.0.4
+
+- 配信プラグイン倉庫くんの宣言ファイル (.soko-kun/config.json) に、料金と利用の条件の申告を足しました。有料の機能は無く、利用には OpenAI API の契約が別に要ること、同梱の素材に利用の制限が無いことを申告します。プラグインの動作は v1.0.3 と同じです。
+
 ### v1.0.3
 
 - 配信プラグイン倉庫くんに表示名と載せる OS を伝える宣言ファイル (.soko-kun/config.json) を足しました。macOS と Linux の配布物は動作を確かめていないため、倉庫くんには Windows の配布物だけを載せます。リポジトリの名前を obs-realtime-translate-summary から realtime-translate-summary に変えました。プラグインの動作は v1.0.2 と同じです。
